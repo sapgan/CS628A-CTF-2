@@ -1,0 +1,25 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "trusty64"
+  config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
+  config.vm.network :forwarded_port, guest: 443, host: 8085, auto_correct: true
+  config.vm.network :forwarded_port, guest: 22, host: 6174
+  config.vm.network :forwarded_port, guest: 27017, host: 27018, auto_correct:
+true
+  config.vm.network :forwarded_port, guest: 1337, host: 1337, auto_correct:
+true
+  config.vm.synced_folder "api", "/home/vagrant/api"
+  config.vm.synced_folder "web", "/home/vagrant/web"
+  config.vm.synced_folder "config", "/home/vagrant/config"
+  config.vm.synced_folder "scripts", "/home/vagrant/scripts"
+ config.vm.synced_folder "problems", "/home/vagrant/problems"
+ config.vm.synced_folder "dbDump", "/home/vagrant/dbDump"
+ config.vm.provision :shell, :path => "scripts/vagrant_setup.sh"
+  config.ssh.forward_agent = true
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--memory", "2048"]
+  end
+end

@@ -1,0 +1,9 @@
+{"name": "MrRobot",
+ "score": 10,
+ "category": "Trivia {sapgan}",
+ "grader": "trivia/robot/grader.py",
+ "description": "fSociety used some cool device to get into a hotel-room which is inspired from a real life device. The flag is the twitter handle of the person behind the original device.",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": "Go watch Mr Robot! The same person made something from which one of your assignment question was inspired."}

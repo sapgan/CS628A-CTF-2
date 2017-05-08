@@ -1,0 +1,10 @@
+{"name": "Awesome Movie Search",
+ "score": 100,
+ "category": "Web Exploitation {sapgan}",
+ "grader": "web/bs1/grader.py",
+ "description": "Ted loves watching movies.So he made his own version of movie service. Service is running at <a href='https://172.27.36.9:4431'> https://172.27.36.9:4431</a>. Use your credentials from shell tab to login",
+ "threshold": 0,
+ "autogen": false,
+ "php": true,
+ "weightmap": {},
+ "hint": "Daredevil's my favourite! Maybe the following file will help <a href='problem-static/web/bs1/index.html'>index.html</a>"}

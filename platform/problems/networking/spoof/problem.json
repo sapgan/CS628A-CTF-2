@@ -1,0 +1,10 @@
+{"name": "Enter the Dungeon",
+ "score": 120,
+ "category": "Networking {vineet}",
+ "grader": "networking/spoof/grader.py",
+ "generator": "networking/spoof/generator.py",
+ "description": "NSA has their network firewalled for only their own employees. We got intel that one of their secret servers is at 172.27.36.28:5005. . Also our monkeys got hold of the following file <a href='problem-static/networking/spoof/udpclient'>udpclient</a>. Can you get any useful intel?",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": ""}

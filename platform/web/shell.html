@@ -1,0 +1,37 @@
+---
+layout: default
+title: Shell
+post_scripts:
+ - js/shell.js
+startup_functions:
+ - redirectIfNotLoggedIn()
+---
+
+<script type="text/template" id="shell-account-credentials-template">
+  <div class="well">
+    <p class="text-center">
+      Username: <%- account.username %> Private Key: <a href="/api/shell/getkey">Get Key</a> | chmod 400 ctf.key | ssh -i ctf.key <%- account.username %>@<%- account.hostname %> -p <%- account.port %> 
+    </p>
+  </div>
+</script>
+<script type="text/template" id="web-shell-account-credentials-template">
+  <div class="well">
+    <p class="text-center">
+      <b>Web Challenges Login Details: </b></p>
+      <p class="text-center">
+        Username: <b><%- account.username %></b> Password: <b><%- account.password %></b>
+    </p>
+  </div>
+</script>
+
+<div class="container">
+  <div class="row">
+    <div id="shell-account-credentials"></div>
+  </div>
+  <div class="row">
+    <div id="web-shell-account-credentials"></div>
+  </div>
+  <!--div class="row">
+    <iframe src="https://shell2014.picoctf.com/" width="100%" height="600px"></iframe>
+  </div-->
+</div>

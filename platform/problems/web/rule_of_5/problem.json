@@ -1,0 +1,10 @@
+{"name": "Rule of 5",
+ "score": 60,
+ "category": "Web Exploitation {sapgan}",
+ "grader": "web/rule_of_5/grader.py",
+ "description": "What are the 3 golden rules? Now solve my rule of 5. Server is running at <a href='https://172.27.36.9:4430'> https://172.27.36.9:4430</a>. Use your credentials from shell tab to login",
+ "threshold": 0,
+ "autogen": false,
+ "php": true,
+ "weightmap": {},
+ "hint": ""}

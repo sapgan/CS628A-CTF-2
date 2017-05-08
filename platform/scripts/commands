@@ -1,0 +1,4 @@
+python3 api_manager.py -v problems load ../problems graders/ ../problem_static
+python3 daemon_manager.py shell_accounts
+python3 api_manager.py -v autogen build 100 ../problem_static
+

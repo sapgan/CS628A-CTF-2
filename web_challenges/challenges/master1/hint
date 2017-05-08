@@ -1,0 +1,3 @@
+http://ha.xxor.se/2011/06/speeding-up-blind-sql-injections-using.html
+
+SET @@global.sql_mode= 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';

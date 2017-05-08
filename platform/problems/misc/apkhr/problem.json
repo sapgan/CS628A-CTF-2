@@ -1,0 +1,9 @@
+{"name": "The lost world",
+ "score": 50,
+ "category": "Forensics {saurabh}",
+ "grader": "misc/apkhr/grader.py",
+ "description": "This apk is from the age of the dinosaurs but this animals just won't give us access. See if you can get anything useful. Get the file from here <a href='problem-static/misc/apkhr/lost-password.apk'>lost-access.apk</a>",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": ""}

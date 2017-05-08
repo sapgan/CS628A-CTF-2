@@ -1,0 +1,10 @@
+{"name": "Cut My Head",
+ "score": 50,
+ "category": "Crypto {Bond007}",
+ "grader": "crypto/cmh/grader.py",
+ "generator": "crypto/cmh/generator.py",
+ "description": "Try to get the the flag from the binary file which is encrypted using the script provided to you. Remember there are some things which always remains same :D",
+ "autogen": true,
+ "php": true,
+ "threshold": 0,
+ "hint": ""}

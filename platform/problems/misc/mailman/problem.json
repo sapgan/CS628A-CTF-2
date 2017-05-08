@@ -1,0 +1,9 @@
+{"name": "Postman Postman Have you any mail?",
+ "score": 25,
+ "category": "Forensics",
+ "grader": "misc/mailman/grader.py",
+ "description": "Who is the actual sender of your CTF mail? Flag is the username of the actual sender",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": "Learn some mail forensics! Forgot some basic human nature. Enjoy the free points!"}

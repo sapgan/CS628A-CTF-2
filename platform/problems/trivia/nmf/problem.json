@@ -1,0 +1,9 @@
+{"name": "NMF",
+ "score": 5,
+ "category": "Trivia {sapgan}",
+ "grader": "trivia/nmf/grader.py",
+ "description": "No More Free ___",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": "Come to lab to get some Hugs!"}

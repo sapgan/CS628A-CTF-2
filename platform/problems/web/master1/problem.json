@@ -1,0 +1,10 @@
+{"name": "Angry Students",
+ "score": 250,
+ "category": "Master Challenge {sapgan}",
+ "grader": "web/master1/grader.py",
+ "description": "We wanted to make some review platform for this ctf but some angry students deleted the user database.So your login details from shell tab won't work now.See if you can still get through! Server is running at <a href='https://172.27.36.9:4435'> https://172.27.36.9:4435</a>",
+ "threshold": 6,
+ "autogen": false,
+ "php": false,
+ "weightmap": {"Rule of 5": 1, "Awesome Movie Search":1,"Welcome Back":1,"Game of Testing":1,"Enter the Dungeon":1,"Capture the port":1,"The lost world":1,"Sea of XORS":1,"Cut My Head":1},
+ "hint": "You can ask for hint after you reach a certain stage!"}

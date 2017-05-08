@@ -1,0 +1,10 @@
+{"name": "Game of Testing",
+ "score": 70,
+ "category": "Pwning {abhir}",
+ "grader": "pwn/got/grader.py",
+ "description": "Challenge is at home/got/. Use the credentials from the shell tab to login to the machine and solve the challenge",
+ "threshold": 0,
+ "autogen": false,
+ "php": true,
+ "weightmap": {},
+ "hint": ""}

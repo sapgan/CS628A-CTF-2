@@ -1,0 +1,10 @@
+{"name": "Hack the planet",
+ "score": 250,
+ "category": "Master Challenge {sapgan}",
+ "grader": "web/master3/grader.py",
+ "description": "If you are seeing this then congrats on solving so many different problems.Hopefully you learnt a lot. This is the end of your journey. While developing this ctf we had the development version at <a href='https://172.27.20.56:8080'> https://172.27.20.56:8080</a>. Just give me the flag for the admin user for the problem 'hidden message'",
+ "threshold": 15,
+ "autogen": false,
+ "php": false,
+ "weightmap": {"Rule of 5": 1, "Awesome Movie Search":1,"Welcome Back":1,"Game of Testing":1,"Enter the Dungeon":1,"Capture the port":1,"The lost world":1,"Sea of XORS":1,"Cut My Head":1, "Angry Students":1,"Postman Postman Have you any mail?":1,"Slick Slack Get the Flag":1,"NMF":1,"MrRobot":1,"Hidden Message":1},
+ "hint": "The problem wasn't supposed to be in this ctf. You can ask the NSA! Sometimes you need to think outside the box from conventional methods!"}

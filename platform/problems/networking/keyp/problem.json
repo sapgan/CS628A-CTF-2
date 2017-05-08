@@ -1,0 +1,10 @@
+{"name": "Capture the port",
+ "score": 70,
+ "category": "Networking {vineet}",
+ "grader": "networking/keyp/grader.py",
+ "generator": "networking/keyp/generator.py",
+ "description": "We intercepted this usb traffic from a high secure machine. Can you get anything interesting? ",
+ "autogen": true,
+ "php": false,
+ "threshold": 0,
+ "hint": "One who keyps trying never fails!"}

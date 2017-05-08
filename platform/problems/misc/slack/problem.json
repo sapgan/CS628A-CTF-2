@@ -1,0 +1,9 @@
+{"name": "Slick Slack Get the Flag",
+ "score": 20,
+ "category": "Miscellaneous",
+ "grader": "misc/slack/grader.py",
+ "description": "Flag is hidden in the course slack channel",
+ "autogen": false,
+ "php": false,
+ "threshold": 0,
+ "hint": "Just use the slack channel"}

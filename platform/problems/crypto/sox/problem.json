@@ -1,0 +1,10 @@
+{"name": "Sea of XORS",
+ "score": 100,
+ "category": "Crypto {Bond007}",
+ "grader": "crypto/sox/grader.py",
+ "generator": "crypto/sox/generator.py",
+ "description": "Can you construct the flag from these encrypted lines of text messages with the information you already know ? I promise its not going to be a difficult problem for you as everything you need to know is in the description :P",
+ "autogen": true,
+ "php": false,
+ "threshold": 0,
+ "hint": ""}

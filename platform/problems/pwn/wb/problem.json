@@ -1,0 +1,10 @@
+{"name": "Welcome Back",
+ "score": 150,
+ "category": "Pwning {abhir}",
+ "grader": "pwn/wb/grader.py",
+ "description": "Challenge is at home/wb/. Use the credentials from the shell tab to login to the machine and solve the challenge",
+ "threshold": 0,
+ "autogen": false,
+ "php": true,
+ "weightmap": {},
+ "hint": "<a href='https://dl.packetstormsecurity.net/papers/bypass/GOT_Hijack.txt'>https://dl.packetstormsecurity.net/papers/bypass/GOT_Hijack.txt</a>"}
